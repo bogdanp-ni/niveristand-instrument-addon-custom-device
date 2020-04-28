@@ -47,9 +47,8 @@
 						<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 					</Item>
 					<Item Name="Generated" Type="Folder">
-						<Item Name="RS_wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/RS_wrapper.vi"/>
-						<Item Name="TCP_wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/TCP_wrapper.vi"/>
-						<Item Name="Wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/Wrapper.vi"/>
+						<Item Name="RS-xxx.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/RS-xxx.vi"/>
+						<Item Name="TCP.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/TCP.vi"/>
 					</Item>
 					<Item Name="Protocol Parent" Type="Folder">
 						<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
@@ -69,17 +68,15 @@
 					<Item Name="VISA" Type="Folder">
 						<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/VISA.lvclass"/>
 					</Item>
-					<Item Name="YetAnotherProtocol" Type="Folder">
-						<Item Name="YetAnotherProtocol.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/YetAnotherProtocol.lvclass"/>
-					</Item>
 					<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 					<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-					<Item Name="NewProtocol.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/NewProtocol/NewProtocol.lvclass"/>
 					<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
 					<Item Name="Protocols List.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Publisher/Protocols List.ctl"/>
 					<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
+					<Item Name="VISA Configure Serial Port" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port"/>
 					<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+					<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 					<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				</Item>
 			</Item>
@@ -895,6 +892,44 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1FE83921-0070-47B9-B2B7-B6CCC625D14B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Instrument Host Automation API.lvlibp</Property>
 			</Item>
+			<Item Name="Scripting API" Type="Packed Library">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F8B6F736-0F64-4D92-9EC0-097C3FD10343}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Scripting API</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Scripting API</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C476EF98-AF07-4CB1-9515-8945153F1C0D}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Scripting API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Scripting API/Scripting API.lvlibp</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Scripting API</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5A653B39-525E-4A3D-81AF-4E554CAD67A1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Scripting API.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments Corporation</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Scripting API</Property>
+				<Property Name="TgtF_internalName" Type="Str">Scripting API</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 National Instruments Corporation</Property>
+				<Property Name="TgtF_productName" Type="Str">Scripting API</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{96DE5724-638D-4361-BF5C-CFC9971DF233}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Scripting API.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Workspace Object" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{8C2E298A-2CF4-4CC2-8B89-2C7487E002E8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Workspace Object</Property>
@@ -1202,9 +1237,8 @@
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
 			<Item Name="Generated" Type="Folder">
-				<Item Name="RS_wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/RS_wrapper.vi"/>
-				<Item Name="TCP_wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/TCP_wrapper.vi"/>
-				<Item Name="Wrapper.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/Wrapper.vi"/>
+				<Item Name="RS-xxx.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/RS-xxx.vi"/>
+				<Item Name="TCP.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/TCP.vi"/>
 			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
@@ -1224,17 +1258,15 @@
 			<Item Name="VISA" Type="Folder">
 				<Item Name="VISA.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/VISA/VISA.lvclass"/>
 			</Item>
-			<Item Name="YetAnotherProtocol" Type="Folder">
-				<Item Name="YetAnotherProtocol.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/YetAnotherProtocol.lvclass"/>
-			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
-			<Item Name="NewProtocol.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/NewProtocol/NewProtocol.lvclass"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
 			<Item Name="Protocols List.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Publisher/Protocols List.ctl"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
+			<Item Name="VISA Configure Serial Port" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
