@@ -88,6 +88,7 @@
 		<Item Name="APIs" Type="Folder">
 			<Item Name="Instrument Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/Instrument Host Automation API.lvlib"/>
 			<Item Name="Scripting API.lvlib" Type="Library" URL="../APIs/Scripting API/Scripting API.lvlib"/>
+			<Item Name="Scripting.vi" Type="VI" URL="../APIs/Scripting.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
