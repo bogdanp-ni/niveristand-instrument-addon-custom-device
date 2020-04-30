@@ -41,4 +41,6 @@
 	<Item Name="Add Response.vi" Type="VI" URL="../Add Response.vi"/>
 	<Item Name="Add Linkages.vi" Type="VI" URL="../Add Linkages.vi"/>
 	<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
+	<Item Name="Set Default Value for Enable Periodic.vi" Type="VI" URL="../Set Default Value for Enable Periodic.vi"/>
+	<Item Name="Set Channel for Trigger.vi" Type="VI" URL="../Set Channel for Trigger.vi"/>
 </Library>
