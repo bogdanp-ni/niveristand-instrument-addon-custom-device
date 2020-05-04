@@ -11,6 +11,8 @@
 	<Item Name="_unused_" Type="Folder">
 		<Item Name="Poly Create.vi" Type="VI" URL="../Poly Create.vi"/>
 		<Item Name="Set Protocol-Specific Properties.vi" Type="VI" URL="../Set Protocol-Specific Properties.vi"/>
+		<Item Name="Set Default Value for Enable Periodic.vi" Type="VI" URL="../Set Default Value for Enable Periodic.vi"/>
+		<Item Name="Set Channel for Trigger.vi" Type="VI" URL="../Set Channel for Trigger.vi"/>
 	</Item>
 	<Item Name="Polymorphic" Type="Folder">
 		<Item Name="Create Instrument Addon" Type="Folder">
@@ -28,8 +30,26 @@
 			<Item Name="Create Message_ValueChangeAndTrigger.vi" Type="VI" URL="../Polymorphic/Create Message_ValueChangeAndTrigger.vi"/>
 		</Item>
 		<Item Name="Create Channel" Type="Folder">
-			<Item Name="Create Channel_Scalar.vi" Type="VI" URL="../Polymorphic/Create Channel_Scalar.vi"/>
-			<Item Name="Create Channel_Array.vi" Type="VI" URL="../Polymorphic/Create Channel_Array.vi"/>
+			<Item Name="Create Command Single Channel_Enumerated List.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Command Single Channel_Enumerated List.vi"/>
+			<Item Name="Create Command Single Channel_Format.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Command Single Channel_Format.vi"/>
+			<Item Name="Create Command Single Channel_Type Cast.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Command Single Channel_Type Cast.vi"/>
+			<Item Name="Create Global Command Single Channel_Enumerated List.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Global Command Single Channel_Enumerated List.vi"/>
+			<Item Name="Create Global Command Single Channel_Format.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Global Command Single Channel_Format.vi"/>
+			<Item Name="Create Global Command Single Channel_Type Cast.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Global Command Single Channel_Type Cast.vi"/>
+			<Item Name="Create Response Single Channel_Comparison.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Response Single Channel_Comparison.vi"/>
+			<Item Name="Create Response Single Channel_Enumerated List.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Response Single Channel_Enumerated List.vi"/>
+			<Item Name="Create Response Single Channel_Format.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Response Single Channel_Format.vi"/>
+			<Item Name="Create Response Single Channel_Type Cast.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Response Single Channel_Type Cast.vi"/>
+			<Item Name="Create Command Array Channel_Enumerated List.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Command Array Channel_Enumerated List.vi"/>
+			<Item Name="Create Command Array Channel_Format.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Command Array Channel_Format.vi"/>
+			<Item Name="Create Command Array Channel_Type Cast.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Command Array Channel_Type Cast.vi"/>
+			<Item Name="Create Global Command Array Channel_Enumerated List.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Global Command Array Channel_Enumerated List.vi"/>
+			<Item Name="Create Global Command Array Channel_Format.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Global Command Array Channel_Format.vi"/>
+			<Item Name="Create Global Command Array Channel_Type Cast.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Global Command Array Channel_Type Cast.vi"/>
+			<Item Name="Create Response Array Channel_Comparison.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Response Array Channel_Comparison.vi"/>
+			<Item Name="Create Response Array Channel_Enumerated List.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Response Array Channel_Enumerated List.vi"/>
+			<Item Name="Create Response Array Channel_Format.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Response Array Channel_Format.vi"/>
+			<Item Name="Create Response Array Channel_Type Cast.vi" Type="VI" URL="../Polymorphic/Create Channel/Create Response Array Channel_Type Cast.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Create Instrument Addon.vi" Type="VI" URL="../Create Instrument Addon.vi"/>
@@ -41,6 +61,7 @@
 	<Item Name="Add Response.vi" Type="VI" URL="../Add Response.vi"/>
 	<Item Name="Add Linkages.vi" Type="VI" URL="../Add Linkages.vi"/>
 	<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
-	<Item Name="Set Default Value for Enable Periodic.vi" Type="VI" URL="../Set Default Value for Enable Periodic.vi"/>
-	<Item Name="Set Channel for Trigger.vi" Type="VI" URL="../Set Channel for Trigger.vi"/>
+	<Item Name="Create Global Command Channel.vi" Type="VI" URL="../Create Global Command Channel.vi"/>
+	<Item Name="Create Command Channel.vi" Type="VI" URL="../Create Command Channel.vi"/>
+	<Item Name="Create Response Channel.vi" Type="VI" URL="../Create Response Channel.vi"/>
 </Library>
