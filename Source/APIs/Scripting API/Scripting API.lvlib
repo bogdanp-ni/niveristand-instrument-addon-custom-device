@@ -13,6 +13,9 @@
 		<Item Name="Set Protocol-Specific Properties.vi" Type="VI" URL="../Set Protocol-Specific Properties.vi"/>
 		<Item Name="Set Default Value for Enable Periodic.vi" Type="VI" URL="../Set Default Value for Enable Periodic.vi"/>
 		<Item Name="Set Channel for Trigger.vi" Type="VI" URL="../Set Channel for Trigger.vi"/>
+		<Item Name="Create Instrument Addon_discarded.vi" Type="VI" URL="../Create Instrument Addon_discarded.vi"/>
+		<Item Name="Add Linkages.vi" Type="VI" URL="../Add Linkages.vi"/>
+		<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
 	</Item>
 	<Item Name="Polymorphic" Type="Folder">
 		<Item Name="Create Instrument Addon" Type="Folder">
@@ -59,8 +62,6 @@
 	<Item Name="Create Message.vi" Type="VI" URL="../Create Message.vi"/>
 	<Item Name="Add Command.vi" Type="VI" URL="../Add Command.vi"/>
 	<Item Name="Add Response.vi" Type="VI" URL="../Add Response.vi"/>
-	<Item Name="Add Linkages.vi" Type="VI" URL="../Add Linkages.vi"/>
-	<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
 	<Item Name="Create Global Command Channel.vi" Type="VI" URL="../Create Global Command Channel.vi"/>
 	<Item Name="Create Command Channel.vi" Type="VI" URL="../Create Command Channel.vi"/>
 	<Item Name="Create Response Channel.vi" Type="VI" URL="../Create Response Channel.vi"/>

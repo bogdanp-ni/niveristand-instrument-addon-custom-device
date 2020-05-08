@@ -46,10 +46,6 @@
 						<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
 						<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 					</Item>
-					<Item Name="Generated" Type="Folder">
-						<Item Name="RS-xxx.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/RS-xxx.vi"/>
-						<Item Name="TCP.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/TCP.vi"/>
-					</Item>
 					<Item Name="Protocol Parent" Type="Folder">
 						<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 					</Item>
@@ -72,7 +68,8 @@
 					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 					<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
 					<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-					<Item Name="Protocols List.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Publisher/Protocols List.ctl"/>
+					<Item Name="Protocols.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocols.ctl"/>
+					<Item Name="Protocols.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocols.mnu"/>
 					<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 					<Item Name="VISA Configure Serial Port" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port"/>
 					<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
@@ -1238,10 +1235,6 @@
 				<Item Name="Format AK Command.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Command.vi"/>
 				<Item Name="Format AK Response.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/AK/Format AK Response.vi"/>
 			</Item>
-			<Item Name="Generated" Type="Folder">
-				<Item Name="RS-xxx.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/RS-xxx.vi"/>
-				<Item Name="TCP.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Generated/TCP.vi"/>
-			</Item>
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
@@ -1264,7 +1257,8 @@
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-			<Item Name="Protocols List.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Publisher/Protocols List.ctl"/>
+			<Item Name="Protocols.ctl" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocols.ctl"/>
+			<Item Name="Protocols.mnu" Type="Document" URL="../Addon/Support Libraries/Protocols.lvlibp/Protocols.mnu"/>
 			<Item Name="Space Constant.vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Addon/Support Libraries/Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
