@@ -84,9 +84,19 @@
 		</Item>
 		<Item Name="APIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Examples" Type="Folder">
+				<Item Name="Create Instrument Addon_ex.vi" Type="VI" URL="../APIs/Examples/Create Instrument Addon_ex.vi"/>
+				<Item Name="Create Instrument Addon From Configuration File_ex.vi" Type="VI" URL="../APIs/Examples/Create Instrument Addon From Configuration File_ex.vi"/>
+				<Item Name="Export Instrument Addon Configuration_ex.vi" Type="VI" URL="../APIs/Examples/Export Instrument Addon Configuration_ex.vi"/>
+				<Item Name="Create Message Group_ex.vi" Type="VI" URL="../APIs/Examples/Create Message Group_ex.vi"/>
+				<Item Name="Create Message - Trigger Only_ex.vi" Type="VI" URL="../APIs/Examples/Create Message - Trigger Only_ex.vi"/>
+				<Item Name="Create Message - Periodic And Trigger_ex.vi" Type="VI" URL="../APIs/Examples/Create Message - Periodic And Trigger_ex.vi"/>
+				<Item Name="Create Message - Value Change And Trigger_ex.vi" Type="VI" URL="../APIs/Examples/Create Message - Value Change And Trigger_ex.vi"/>
+			</Item>
 			<Item Name="Instrument Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/Instrument Host Automation API.lvlib"/>
 			<Item Name="Scripting API.lvlib" Type="Library" URL="../APIs/Scripting API/Scripting API.lvlib"/>
 			<Item Name="Scripting.vi" Type="VI" URL="../APIs/Scripting.vi"/>
+			<Item Name="Scripting Example.vi" Type="VI" URL="../APIs/Scripting Example.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
@@ -111,6 +121,9 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utilities/LLB Pre-Build CHM Build.vi"/>
 		</Item>
+		<Item Name="Control 2.ctl" Type="VI" URL="../APIs/Examples/Control 2.ctl"/>
+		<Item Name="Control 3.ctl" Type="VI" URL="../APIs/Examples/Control 3.ctl"/>
+		<Item Name="Control 4.ctl" Type="VI" URL="../APIs/Examples/Control 4.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
