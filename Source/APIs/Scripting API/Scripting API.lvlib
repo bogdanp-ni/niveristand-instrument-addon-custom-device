@@ -62,7 +62,14 @@
 	<Item Name="Create Message.vi" Type="VI" URL="../Create Message.vi"/>
 	<Item Name="Add Command.vi" Type="VI" URL="../Add Command.vi"/>
 	<Item Name="Add Response.vi" Type="VI" URL="../Add Response.vi"/>
-	<Item Name="Create Global Command Channel.vi" Type="VI" URL="../Create Global Command Channel.vi"/>
-	<Item Name="Create Command Channel.vi" Type="VI" URL="../Create Command Channel.vi"/>
-	<Item Name="Create Response Channel.vi" Type="VI" URL="../Create Response Channel.vi"/>
+	<Item Name="Get Protocol.vi" Type="VI" URL="../Get Protocol.vi"/>
+	<Item Name="Set Protocol.vi" Type="VI" URL="../Set Protocol.vi"/>
+	<Item Name="Get PCL Decimation.vi" Type="VI" URL="../Get PCL Decimation.vi"/>
+	<Item Name="Set PCL Decimation.vi" Type="VI" URL="../Set PCL Decimation.vi"/>
+	<Item Name="Get Instrument Addon Name.vi" Type="VI" URL="../Get Instrument Addon Name.vi"/>
+	<Item Name="Set Instrument Addon Name.vi" Type="VI" URL="../Set Instrument Addon Name.vi"/>
+	<Item Name="Delete Instrument Addon.vi" Type="VI" URL="../Delete Instrument Addon.vi"/>
+	<Item Name="Create Global MetaData Channel.vi" Type="VI" URL="../Create Global MetaData Channel.vi"/>
+	<Item Name="Create MetaData Channel.vi" Type="VI" URL="../Create MetaData Channel.vi"/>
+	<Item Name="Create Data Channel.vi" Type="VI" URL="../Create Data Channel.vi"/>
 </Library>

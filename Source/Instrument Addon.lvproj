@@ -92,6 +92,20 @@
 				<Item Name="Create Message - Trigger Only_ex.vi" Type="VI" URL="../APIs/Examples/Create Message - Trigger Only_ex.vi"/>
 				<Item Name="Create Message - Periodic And Trigger_ex.vi" Type="VI" URL="../APIs/Examples/Create Message - Periodic And Trigger_ex.vi"/>
 				<Item Name="Create Message - Value Change And Trigger_ex.vi" Type="VI" URL="../APIs/Examples/Create Message - Value Change And Trigger_ex.vi"/>
+				<Item Name="Get Protocol_ex.vi" Type="VI" URL="../APIs/Examples/Get Protocol_ex.vi"/>
+				<Item Name="Set Protocol_ex.vi" Type="VI" URL="../APIs/Examples/Set Protocol_ex.vi"/>
+				<Item Name="Get PCL Decimation_ex.vi" Type="VI" URL="../APIs/Examples/Get PCL Decimation_ex.vi"/>
+				<Item Name="Set PCL Decimation_ex.vi" Type="VI" URL="../APIs/Examples/Set PCL Decimation_ex.vi"/>
+				<Item Name="Delete Instrument Addon_ex.vi" Type="VI" URL="../APIs/Examples/Delete Instrument Addon_ex.vi"/>
+				<Item Name="Get Instrument Addon Name_ex.vi" Type="VI" URL="../APIs/Examples/Get Instrument Addon Name_ex.vi"/>
+				<Item Name="Set Instrument Addon Name_ex.vi" Type="VI" URL="../APIs/Examples/Set Instrument Addon Name_ex.vi"/>
+				<Item Name="Get_modify_set_Protocol.vi" Type="VI" URL="../APIs/Examples/Get_modify_set_Protocol.vi"/>
+				<Item Name="Add Command_ex.vi" Type="VI" URL="../APIs/Examples/Add Command_ex.vi"/>
+				<Item Name="Add Response_ex1.vi" Type="VI" URL="../APIs/Examples/Add Response_ex1.vi"/>
+				<Item Name="Add Response_ex2.vi" Type="VI" URL="../APIs/Examples/Add Response_ex2.vi"/>
+				<Item Name="Create Global MetaData Channel_ex.vi" Type="VI" URL="../APIs/Examples/Create Global MetaData Channel_ex.vi"/>
+				<Item Name="Create MetaData Channel_ex.vi" Type="VI" URL="../APIs/Examples/Create MetaData Channel_ex.vi"/>
+				<Item Name="Create Data Channel_ex.vi" Type="VI" URL="../APIs/Examples/Create Data Channel_ex.vi"/>
 			</Item>
 			<Item Name="Instrument Host Automation API.lvlib" Type="Library" URL="../APIs/Host Automation API/Instrument Host Automation API.lvlib"/>
 			<Item Name="Scripting API.lvlib" Type="Library" URL="../APIs/Scripting API/Scripting API.lvlib"/>
@@ -124,6 +138,17 @@
 		<Item Name="Control 2.ctl" Type="VI" URL="../APIs/Examples/Control 2.ctl"/>
 		<Item Name="Control 3.ctl" Type="VI" URL="../APIs/Examples/Control 3.ctl"/>
 		<Item Name="Control 4.ctl" Type="VI" URL="../APIs/Examples/Control 4.ctl"/>
+		<Item Name="Control 5.ctl" Type="VI" URL="../APIs/Examples/Control 5.ctl"/>
+		<Item Name="Control 6.ctl" Type="VI" URL="../APIs/Scripting API/Control 6.ctl"/>
+		<Item Name="Control 7.ctl" Type="VI" URL="../APIs/Examples/Control 7.ctl"/>
+		<Item Name="Control 8.ctl" Type="VI" URL="../APIs/Examples/Control 8.ctl"/>
+		<Item Name="Control 10.ctl" Type="VI" URL="../APIs/Examples/Control 10.ctl"/>
+		<Item Name="Control 11.ctl" Type="VI" URL="../APIs/Examples/Control 11.ctl"/>
+		<Item Name="Control 12.ctl" Type="VI" URL="../APIs/Examples/Control 12.ctl"/>
+		<Item Name="Control 13.ctl" Type="VI" URL="../APIs/Examples/Control 13.ctl"/>
+		<Item Name="Control 14.ctl" Type="VI" URL="../APIs/Examples/Control 14.ctl"/>
+		<Item Name="Control 15.ctl" Type="VI" URL="../APIs/Examples/Control 15.ctl"/>
+		<Item Name="Get_modify_set_Protocol2.vi" Type="VI" URL="../APIs/Examples/Get_modify_set_Protocol2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
