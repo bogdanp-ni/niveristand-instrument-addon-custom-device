@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -135,7 +135,9 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utilities/LLB Pre-Build CHM Build.vi"/>
 		</Item>
+		<Item Name="Control 1.ctl" Type="VI" URL="../APIs/Scripting API/Control 1.ctl"/>
 		<Item Name="Control 2.ctl" Type="VI" URL="../APIs/Examples/Control 2.ctl"/>
+		<Item Name="Control 2.ctl" Type="VI" URL="../APIs/Scripting API/Control 2.ctl"/>
 		<Item Name="Control 3.ctl" Type="VI" URL="../APIs/Examples/Control 3.ctl"/>
 		<Item Name="Control 4.ctl" Type="VI" URL="../APIs/Examples/Control 4.ctl"/>
 		<Item Name="Control 5.ctl" Type="VI" URL="../APIs/Examples/Control 5.ctl"/>
@@ -148,6 +150,10 @@
 		<Item Name="Control 13.ctl" Type="VI" URL="../APIs/Examples/Control 13.ctl"/>
 		<Item Name="Control 14.ctl" Type="VI" URL="../APIs/Examples/Control 14.ctl"/>
 		<Item Name="Control 15.ctl" Type="VI" URL="../APIs/Examples/Control 15.ctl"/>
+		<Item Name="Control 20.ctl" Type="VI" URL="../APIs/Scripting API/Control 20.ctl"/>
+		<Item Name="Control 21.ctl" Type="VI" URL="../APIs/Scripting API/Control 21.ctl"/>
+		<Item Name="Control 22.ctl" Type="VI" URL="../APIs/Scripting API/Control 22.ctl"/>
+		<Item Name="Control 23.ctl" Type="VI" URL="../APIs/Scripting API/Control 23.ctl"/>
 		<Item Name="Get_modify_set_Protocol2.vi" Type="VI" URL="../APIs/Examples/Get_modify_set_Protocol2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -630,14 +636,11 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../ni-master/niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
-			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../ni-master/niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
+			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
+			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -1166,6 +1169,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{A1219698-6D43-40B3-AF5A-868C36D4530F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{703C13A7-1454-4024-8B4A-61789C0AC79C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{17D87870-65B4-41CB-AC83-646A11A2F165}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Workspace Tool EXE</Property>
