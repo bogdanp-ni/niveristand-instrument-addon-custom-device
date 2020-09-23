@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="19008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\&gt;7`43.2%-@RXS'#3]UV=(),5Y%FN_!7JA!H4G%DB[=D/%U,4AGXB1F*X9*&lt;7,\P-59)%%9#&gt;!4M?IT^?`]_XHV;J(\]F-YVH4L7LRZP&lt;*]Y_YPPRXL30NVX7K_08:_/H[&lt;[7P/].0_DQ=`'LY`,PN$_XN`X3PO*1^`(^`&amp;`D]O4G`44^_Q0N1=2F6214JH;5F/3*XG3*XG3*XG1"XG1"XG1"\G4/\G4/\G4/\G2'\G2'\G2'XE`S55O=J&amp;$3B:0&amp;EIG43:)/E.2]J:Y%E`C34R]6?**0)EH]31?OCDR**\%EXA3$]/5?"*0YEE]C9?JOC4\39YH]4#^!E`A#4S"*`#QJ!*0!!A7#S9/*I'BI$(Y%(A#4_$BIQ*0Y!E]A3@QU+T!%XA#4_!*0!TJ6S7[JJXE?*B'DM@R/"\(YXC97I\(]4A?R_.Y7%[/R`%Y#'&gt;":X))=A9Z(:QPDM@R]%?/R`%Y(M@D?'DK&gt;]D\F7G;&gt;J,D-4S'R`!9(M0$&amp;$)]BM@Q'"\$Q\1S0)&lt;(]"A?Q].3-DS'R`!9%'.2FJ=RG4(1['1%BI&gt;8XSX7\V*UC@64KMWLWJ3KT;&lt;;2+L.I&lt;LJKJOJOEGKC[_[K+K,J&lt;I)KB_H1KMQKE65AVN((8D@5S/VI\&lt;5BFJ23WJ/T&gt;L1$_ZY/"SUX_]VDK.WOZWWW[UWGYV7KZ77S[8G]\FGM^H$9_!XZ]-$Y@[Z&gt;-HH6M0V?$8=8CS'GV^8QZ_`C_(@R?,9VOK4`J&gt;_A7?DTP2Y8K\2(&lt;G`SZ5!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
+<Library LVVersion="20008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\&gt;7`43.2%-@RXS'#3]UV=(),5Y%FN_!7JA!H4G%DB[=D/%U,4AGXB1F*X9*&lt;7,\P-59)%%9#&gt;!4M?IT^?`]_XHV;J(\]F-YVH4L7LRZP&lt;*]Y_YPPRXL30NVX7K_08:_/H[&lt;[7P/].0_DQ=`'LY`,PN$_XN`X3PO*1^`(^`&amp;`D]O4G`44^_Q0N1=2F6214JH;5F/3*XG3*XG3*XG1"XG1"XG1"\G4/\G4/\G4/\G2'\G2'\G2'XE`S55O=J&amp;$3B:0&amp;EIG43:)/E.2]J:Y%E`C34R]6?**0)EH]31?OCDR**\%EXA3$]/5?"*0YEE]C9?JOC4\39YH]4#^!E`A#4S"*`#QJ!*0!!A7#S9/*I'BI$(Y%(A#4_$BIQ*0Y!E]A3@QU+T!%XA#4_!*0!TJ6S7[JJXE?*B'DM@R/"\(YXC97I\(]4A?R_.Y7%[/R`%Y#'&gt;":X))=A9Z(:QPDM@R]%?/R`%Y(M@D?'DK&gt;]D\F7G;&gt;J,D-4S'R`!9(M0$&amp;$)]BM@Q'"\$Q\1S0)&lt;(]"A?Q].3-DS'R`!9%'.2FJ=RG4(1['1%BI&gt;8XSX7\V*UC@64KMWLWJ3KT;&lt;;2+L.I&lt;LJKJOJOEGKC[_[K+K,J&lt;I)KB_H1KMQKE65AVN((8D@5S/VI\&lt;5BFJ23WJ/T&gt;L1$_ZY/"SUX_]VDK.WOZWWW[UWGYV7KZ77S[8G]\FGM^H$9_!XZ]-$Y@[Z&gt;-HH6M0V?$8=8CS'GV^8QZ_`C_(@R?,9VOK4`J&gt;_A7?DTP2Y8K\2(&lt;G`SZ5!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -60,8 +60,8 @@
 	<Item Name="Export Instrument Addon Configuration.vi" Type="VI" URL="../Export Instrument Addon Configuration.vi"/>
 	<Item Name="Create Message Group.vi" Type="VI" URL="../Create Message Group.vi"/>
 	<Item Name="Create Message.vi" Type="VI" URL="../Create Message.vi"/>
-	<Item Name="Add Command.vi" Type="VI" URL="../Add Command.vi"/>
-	<Item Name="Add Response.vi" Type="VI" URL="../Add Response.vi"/>
+	<Item Name="Configure Command.vi" Type="VI" URL="../Configure Command.vi"/>
+	<Item Name="Configure Response.vi" Type="VI" URL="../Configure Response.vi"/>
 	<Item Name="Get Protocol.vi" Type="VI" URL="../Get Protocol.vi"/>
 	<Item Name="Set Protocol.vi" Type="VI" URL="../Set Protocol.vi"/>
 	<Item Name="Get PCL Decimation.vi" Type="VI" URL="../Get PCL Decimation.vi"/>
@@ -72,4 +72,6 @@
 	<Item Name="Create Global MetaData Channel.vi" Type="VI" URL="../Create Global MetaData Channel.vi"/>
 	<Item Name="Create MetaData Channel.vi" Type="VI" URL="../Create MetaData Channel.vi"/>
 	<Item Name="Create Data Channel.vi" Type="VI" URL="../Create Data Channel.vi"/>
+	<Item Name="Create Command.vi" Type="VI" URL="../Create Command.vi"/>
+	<Item Name="Create Response.vi" Type="VI" URL="../Create Response.vi"/>
 </Library>
